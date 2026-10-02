@@ -1,4 +1,4 @@
-# wip
+# wiply-cli
 
 **Your work, beautifully tracked.**
 
@@ -7,45 +7,45 @@ A stupidly simple CLI that helps you track what you're working on — with beaut
 ## Install
 
 ```bash
-pip install wip
+pip install wiply-cli
 ```
 
 ## Quick Start
 
 ```bash
 # Start working on something
-wip start "Building a CLI tool"
+wiply start "Building a CLI tool"
 
 # Check what you're doing
-wip status
+wiply status
 
 # Stop when done
-wip stop "Finished the core logic"
+wiply stop "Finished the core logic"
 
 # Resume last task
-wip resume
+wiply resume
 
 # See your day
-wip log
+wiply log
 
 # Get stats
-wip stats
+wiply stats
 
 # Live view with timer
-wip live
+wiply live
 ```
 
 ## Demo
 
 ```
-$ wip start "Building something cool"
+$ wiply start "Building something cool"
 ╭──────────────────────────────────────╮
 │ ▶ Started: Building something cool   │
 │   10:30                              │
 ╰──────────────────────────────────────╯
 
-$ wip live
-╭──────────── wip live ────────────╮
+$ wiply live
+╭──────────── wiply live ────────────╮
 │ ⠋ Working on: Building something cool │
 │ Elapsed: 25m                         │
 │ Started at 10:30                     │
@@ -53,27 +53,27 @@ $ wip live
 │ Last: Code review (45m)              │
 ╰──────────────────────────────────────╯
 
-$ wip stop "Core logic done"
+$ wiply stop "Core logic done"
 ╭──────────────────────────────────────╮
 │ ■ Stopped: Building something cool   │
 │ Duration: 25m                        │
 │ Note: Core logic done                │
 ╰──────────────────────────────────────╯
 
-$ wip resume
+$ wiply resume
 ╭──────────────────────────────────────╮
 │ ▶ Resumed: Building something cool   │
 │   11:00                              │
 ╰──────────────────────────────────────╯
 
-$ wip log
+$ wiply log
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃ Task                                 ┃
 ┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
 │ Building something cool  25m  10:30  │
 └──────────────────────────────────────┘
 
-$ wip stats
+$ wiply stats
 ╭────────── Stats ──────────╮
 │ Total time:   25m         │
 │ Total tasks:  1           │
@@ -82,11 +82,11 @@ $ wip stats
 ╰───────────────────────────╯
 ```
 
-## Why wip?
+## Why wiply?
 
 - **Beautiful** — Rich terminal output that makes tracking feel good
 - **Simple** — 4 commands to rule them all
-- **Private** — All data stored locally in `~/.wip/`
+- **Private** — All data stored locally in `~/.wiply/`
 - **Git-friendly** — Your log is just JSON, commit it if you want
 - **Fast** — No accounts, no sync, no nonsense
 
@@ -94,21 +94,21 @@ $ wip stats
 
 | Command | Description |
 |---------|-------------|
-| `wip start <task>` | Start a task |
-| `wip stop [note]` | Stop current task |
-| `wip resume` | Resume last task |
-| `wip status` | Show current status |
-| `wip log` | Show work history |
-| `wip stats` | Show statistics |
-| `wip live` | Live view with timer |
-| `wip undo` | Undo last entry |
-| `wip export` | Export as markdown |
-| `wip clear` | Clear all data |
+| `wiply start <task>` | Start a task |
+| `wiply stop [note]` | Stop current task |
+| `wiply resume` | Resume last task |
+| `wiply status` | Show current status |
+| `wiply log` | Show work history |
+| `wiply stats` | Show statistics |
+| `wiply live` | Live view with timer |
+| `wiply undo` | Undo last entry |
+| `wiply export` | Export as markdown |
+| `wiply clear` | Clear all data |
 
 ## Options
 
-- `wip live --alert 30` — Alert after 30 minutes (default: 25)
-- `wip log --days 14` — Show last 14 days (default: 7)
+- `wiply live --alert 30` — Alert after 30 minutes (default: 25)
+- `wiply log --days 14` — Show last 14 days (default: 7)
 
 ## Contributing
 
@@ -120,4 +120,4 @@ MIT
 
 ---
 
-If you find wip useful, consider giving it a star!
+If you find wiply useful, consider giving it a star!

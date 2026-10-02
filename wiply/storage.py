@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-DATA_DIR = Path.home() / ".wip"
+DATA_DIR = Path.home() / ".wiply"
 DATA_FILE = DATA_DIR / "data.json"
 
 
