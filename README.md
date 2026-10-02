@@ -1,4 +1,4 @@
-# wiply-cli
+# wiply
 
 **Your work, beautifully tracked.**
 
@@ -7,7 +7,7 @@ A stupidly simple CLI that helps you track what you're working on — with beaut
 ## Install
 
 ```bash
-pip install wiply-cli
+pip install wiply
 ```
 
 ## Quick Start
