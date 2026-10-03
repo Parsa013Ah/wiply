@@ -1,5 +1,7 @@
 # wiply
 
+![demo](demo.gif)
+
 **Your work, beautifully tracked.**
 
 A stupidly simple CLI that helps you track what you're working on — with beautiful output that makes productivity feel good.
