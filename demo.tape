@@ -6,10 +6,10 @@ Set Height 550
 Set Theme "Catppuccin Mocha"
 Set TypingSpeed 80ms
 
-Type "wiply start 'Building wiply'"
+Type "pip install wiply -q && wiply start 'Building wiply'"
 Sleep 500ms
 Enter
-Sleep 1500ms
+Sleep 3000ms
 
 Type "wiply start 'Review code'"
 Sleep 500ms
